@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet final</title>
+  <link rel="stylesheet" href="./styles/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="cover">
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="navbar-collapse collapse"  id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="btn-group nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        Categorie
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Premier lien</a>
+                        <a class="dropdown-item" href="#">Deuxième lien</a>
+                        <a class="dropdown-item" href="#">Troisième lien</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Rechercher">
+                <button class="btn btn-primary my-2 my-lg-0" type="submit">Rechercher</button>
+            </form>
+        </div>
+      </nav>
+      <h1 class="display-3 font-weight-bold text-center text-light py-5 px-2">Mon site Bootstrap</h1>
+    </div>
+  </header>
+
+  <section class="container">
+    <div class="row my-5">
+      <div class="col-7 bg-dark p-3 d-flex flex-column align-items-center">
+        <p class="lead text-center text-light">Produit 1</p>
+        <button class="btn btn-primary" type="button">Bouton par défaut</button>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-4 bg-primary p-3 d-flex flex-column align-items-center">
+        <p class="lead text-center text-light">Produit 2</p>
+        <button class="btn btn-dark" type="button">Bouton par défaut</button>
+      </div>
+    </div>
+    <div class="row my-5">
+      <div class="col-4 bg-primary p-3 d-flex flex-column align-items-center">
+        <p class="lead text-center text-light">Produit 3</p>
+        <button class="btn btn-dark" type="button">Bouton par défaut</button>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-7 bg-dark p-3 d-flex flex-column align-items-center">
+        <p class="lead text-center text-light">Produit 4</p>
+        <button class="btn btn-primary" type="button">Bouton par défaut</button>
+      </div>
+    </div>
+    <section class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="https://source.unsplash.com/collection/190727/1400x700" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Formule basic</h5>
+            <p class="card-text text-center">Retrouvez la formule basic à : <span class="display-4 font-weight-bold">10€</span></p>
+        </div>
+        <div class="card-footer">
+            <small>Sans engagement</small>
+        </div>
+      </div>
+      <div class="card">
+          <img class="card-img-top" src="https://source.unsplash.com/collection/190727/1400x700" alt="Card image cap">
+          <div class="card-body">
+              <h5 class="card-title">Formule premium</h5>
+              <p class="card-text text-center">Retrouvez la formule basic à : <span class="display-4 font-weight-bold">20€</span></p>
+          </div>
+          <div class="card-footer">
+              <small>Sans engagement</small>
+          </div>
+      </div>
+    </section>
+  </section>
+
+  <footer class="mt-5">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
